@@ -1,23 +1,24 @@
-import btc from './img/bitcoin-btc-logo.png';
 import './App.css';
-import Footer from './components/Footer';
-import Header from './components/Header';
-import Bridge from './components/Bridge';
-import Hero from './components/Hero';
+import React from "react";
+
+import { Routes, Route} from 'react-router-dom'
+import Home from './components/Home';
 import Contact from './components/ContactUs';
 import About from './components/AboutUs';
-import Subscribe from './components/Subscription';
-
 function App() {
+  
+
   return (
    <div>
-      <Header/>
-      <Hero/>
-      <Bridge/>
-      <Contact/>
-      <About/>
-      <Subscribe/>
-      <Footer/>
+
+        <Routes>
+          <Route path="/" element={ <Home/> } />
+          <Route path="/about" element={ <About/> } />
+          <Route path="/contact" element={ <Contact/> } />
+        </Routes>
+
+     
+      
 </div>
   
   );

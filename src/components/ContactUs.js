@@ -1,7 +1,13 @@
 import '../App.css';
+import Footer from './Footer';
+import Header from './Header';
+import Subscribe from './Subscription'
+import Crypto from './CryptoFeeds';
 
 export default function Contact() {
     return(
+      <div>
+      <Header/>
         <section id="contact" class="contact section-bg">
         <div class="container">
   
@@ -40,6 +46,9 @@ export default function Contact() {
   
         </div>
       </section>
-  
+      <Subscribe/>
+      <Crypto/>
+      <Footer/>
+      </div>
     );
 }

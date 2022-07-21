@@ -6,7 +6,7 @@ export default function Subscribe() {
   
             <div class="hero-container">
 
-        <h1> Welcome <span class="font-28 weight-700 white-color mt-4"></span></h1>
+        <h1> Subscribe <span class="font-28 weight-700 white-color mt-4"></span></h1>
       
       <h2>Register for updates!</h2>
       
